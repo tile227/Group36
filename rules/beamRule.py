@@ -1,6 +1,6 @@
-def Beam_count(model):
-    beam = model.by_type('IfcBeam')
+def Wall_count(model):
+    wall = model.by_type('Ifcwall')
     
-    result = f"Beam: {len(beam)}"
+    result = f"Wall: {len(wall)}"
     
     return result
