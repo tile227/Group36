@@ -1,12 +1,12 @@
 import ifcopenshell
 
-from .rules import beamRule
+from .rules import WallRule
 
 
 model = ifcopenshell.open("path/to/ifcfile.ifc")
 
-beamResult = beamRule.checkRule(model)
+wallResult = wallRule.checkRule(model)
 
 
-print("Beam result:", beamResult)
+print("Wall result:", wallResult)
 
