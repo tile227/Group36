@@ -72,3 +72,8 @@ The information we need is:
 A2G:
 -We only used Blender, the panda plugin and python for this so we don't need a software license.
 
+
+## BPMN Diagram
+Here is the BPMN diagram that shows the process flow:
+
+![BPMN Diagram](IMG/A2e.svg)
