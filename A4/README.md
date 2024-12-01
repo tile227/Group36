@@ -32,7 +32,11 @@ How to get started:
 4.	Click Install and select the downloaded ZIP file.
 5.	Enable the Bonsai add-on by ticking the checkbox in the add-on list.
 
+
+
 *Once you have done these steps, you can follow the Tutorial.*
+
+
 
 VIDEO 
 
