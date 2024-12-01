@@ -6,11 +6,12 @@ Katharina Gertrud Voll | s242086
 Tilemachos Tsontakis | s242775
 Focus Area: LCA
 
+
 ## **Overview**
 This script calculates the window-to-wall ratio by analyzing 3D building façades in Blender, distinguishing glass from non-glass surfaces. It automates accurate calculations, providing planners with critical insights to optimize design, energy efficiency, and sustainability in building models.
 
 
-##**Summary**
+## **Summary**
 This script is a tool for analyzing the façade of 3D building models in Blender, focusing on calculating the window-to-wall ratio. It identifies and measures façade surfaces, distinguishing between glass and non-glass materials, while excluding irrelevant parts like roofs, basements, or non-vertical faces. 
 The code creates significant value by automating the analysis of complex 3D models and offering critical insights for architects and designers. The window-to-wall ratio is an essential metric for evaluating a building’s thermal performance, energy efficiency, and natural lighting. With this tool, users can optimize their designs to balance aesthetics, functionality, and sustainability. It supports data-driven design iteration, enabling quick testing of material configurations and façade designs. Additionally, the script’s outputs can be directly applied to simulations such as thermal or energy modeling, making it indispensable for modern, sustainable architectural practices.
 
@@ -18,39 +19,40 @@ The code creates significant value by automating the analysis of complex 3D mode
 ## **Tutorial** 
 
 How to get started: 
-**Step 1: Install Blender 4.3.0**
+
+### **Step 1: Install Blender 4.3.0**
 1.	Visit the official Blender website: Blender Download.
 2.	Download version 4.3.0, which is compatible with the Bonsai add-on.
 3.	Install Blender by following the instructions provided on the website or in the installer.
 
-**Step 2: Install the Bonsai Add-on**
+### **Step 2: Install the Bonsai Add-on**
 1.	Visit the Bonsai add-on website: Bonsai Add-on.
 2.	Download the latest version of the add-on as a ZIP file.
 3.	Open Blender and navigate to Edit > Preferences > Add-ons.
 4.	Click Install and select the downloaded ZIP file.
 5.	Enable the Bonsai add-on by ticking the checkbox in the add-on list.
 
-Once you have done these steps, you can follow the Tutorial. 
+*Once you have done these steps, you can follow the Tutorial.*
 
 VIDEO 
 
 
-**Step 1: How to Open Blender**
+### **Step 1: How to Open Blender**
 •	For macOS:
 To open Blender on macOS, you first need to launch it through the terminal. Press “Command + Space Bar”, type “Terminal”, and press Enter. Navigate to the Blender installation path, which may vary but is typically: /Applications/Blender.app/Contents/MacOS/Blender
 •	For Windows:
 Simply open Blender as you normally would by clicking its icon.
 
-**Step 2: How to Open the IFC**
+### **Step 2: How to Open the IFC**
 •	In Blender, click on File > Open IFC Project and select the IFC file you want to load.
 
-**Step 3: Scripting**
+### **Step 3: Scripting**
 •	Navigate to the Scripting tab, which can be found in the top menu bar.
 •	Here, you have two options:
 1.	Click New to manually enter or paste the Python code.
 2.	Click Open to upload an existing Python file from your computer.
 
-**Step 4: Running the Script**
+### **Step 4: Running the Script**
 •	Run the script by clicking the triangle icon at the top of the Scripting window.
 •	On a MacBook, the result of the script will be displayed in the terminal.
 
@@ -59,7 +61,7 @@ Simply open Blender as you normally would by clicking its icon.
 
 
 
-**Python-Code**
+## **Python-Code**
 
     import ifcopenshell
     from bonsai.bim.ifc import IfcStore
@@ -206,7 +208,7 @@ Simply open Blender as you normally would by clicking its icon.
 
 
 
-**Description of the code**
+## **Description of the code**
 
 
 This script is designed to analyze a 3D scene in Blender and calculate the façade area of objects within the scene, distinguishing between surfaces made of glass and those made of other materials. The calculation involves using raycasting to identify vertical, exterior surfaces while excluding irrelevant areas such as roofs, basements, and non-vertical faces. Additionally, the script calculates the proportion of glass façade area relative to the total façade area, known as the window-to-wall ratio.
