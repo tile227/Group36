@@ -61,14 +61,14 @@ Simply open Blender as you normally would by clicking its icon.
 
 **Python-Code**
 
-import ifcopenshell
-from bonsai.bim.ifc import IfcStore
-from ifcopenshell.util.element import get_psets
-import bpy
-import mathutils
+    import ifcopenshell
+    from bonsai.bim.ifc import IfcStore
+    from ifcopenshell.util.element import get_psets
+    import bpy
+    import mathutils
 
 
-def calculate_facade_area(target_object, is_glass):
+    def calculate_facade_area(target_object, is_glass):
     """
     Calculate the facade area of a building object using raycasting.
     :param target_object: The building object to analyze.
@@ -147,7 +147,7 @@ def calculate_facade_area(target_object, is_glass):
     return total_area
 
 
-def is_glass_object(target_object):
+    def is_glass_object(target_object):
     """
     Determine if the object is made of glass based on material names.
     :param target_object: The object to check.
@@ -161,7 +161,7 @@ def is_glass_object(target_object):
     return False
 
 
-def process_scene():
+    def process_scene():
     """
     Process all objects in the scene to calculate the total facade area for glass and non-glass objects.
     """
@@ -199,11 +199,10 @@ def process_scene():
         print("Window-to-wall ratio = Undefined (no facade area)")
 
 
-# Execute the process
-if __name__ == "__main__":
+    # Execute the process
+    if __name__ == "__main__":
     process_scene()
-()
-
+    ()
 
 
 
