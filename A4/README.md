@@ -218,7 +218,7 @@ Simply open Blender as you normally would by clicking its icon.
 
 
 
-## **Description of the code**
+## **Description of the Code**
 
 
 This script is designed to analyze a 3D scene in Blender and calculate the façade area of objects within the scene, distinguishing between surfaces made of glass and those made of other materials. The calculation involves using raycasting to identify vertical, exterior surfaces while excluding irrelevant areas such as roofs, basements, and non-vertical faces. Additionally, the script calculates the proportion of glass façade area relative to the total façade area, known as the window-to-wall ratio.
