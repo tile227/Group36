@@ -1,21 +1,21 @@
 
-Facade Area Analyzer
+**Facade Area Analyzer**
 
 Group 36
 Katharina Gertrud Voll | s242086
 Tilemachos Tsontakis | s242775
 Focus Area: LCA
 
-Overview
+**Overview**
 This script calculates the window-to-wall ratio by analyzing 3D building façades in Blender, distinguishing glass from non-glass surfaces. It automates accurate calculations, providing planners with critical insights to optimize design, energy efficiency, and sustainability in building models.
 
 
-Summary
+**Summary**
 This script is a tool for analyzing the façade of 3D building models in Blender, focusing on calculating the window-to-wall ratio. It identifies and measures façade surfaces, distinguishing between glass and non-glass materials, while excluding irrelevant parts like roofs, basements, or non-vertical faces. 
 The code creates significant value by automating the analysis of complex 3D models and offering critical insights for architects and designers. The window-to-wall ratio is an essential metric for evaluating a building’s thermal performance, energy efficiency, and natural lighting. With this tool, users can optimize their designs to balance aesthetics, functionality, and sustainability. It supports data-driven design iteration, enabling quick testing of material configurations and façade designs. Additionally, the script’s outputs can be directly applied to simulations such as thermal or energy modeling, making it indispensable for modern, sustainable architectural practices.
 
 
-Tutorial 
+**Tutorial** 
 How to get started: 
 Step 1: Install Blender 4.3.0
 1.	Visit the official Blender website: Blender Download.
