@@ -16,13 +16,14 @@ The code creates significant value by automating the analysis of complex 3D mode
 
 
 **Tutorial** 
+
 How to get started: 
-Step 1: Install Blender 4.3.0
+**Step 1: Install Blender 4.3.0**
 1.	Visit the official Blender website: Blender Download.
 2.	Download version 4.3.0, which is compatible with the Bonsai add-on.
 3.	Install Blender by following the instructions provided on the website or in the installer.
 
-Step 2: Install the Bonsai Add-on
+**Step 2: Install the Bonsai Add-on**
 1.	Visit the Bonsai add-on website: Bonsai Add-on.
 2.	Download the latest version of the add-on as a ZIP file.
 3.	Open Blender and navigate to Edit > Preferences > Add-ons.
@@ -34,22 +35,22 @@ Once you have done these steps, you can follow the Tutorial.
 VIDEO 
 
 
-Step 1: How to Open Blender
+**Step 1: How to Open Blender**
 •	For macOS:
 To open Blender on macOS, you first need to launch it through the terminal. Press “Command + Space Bar”, type “Terminal”, and press Enter. Navigate to the Blender installation path, which may vary but is typically: /Applications/Blender.app/Contents/MacOS/Blender
 •	For Windows:
 Simply open Blender as you normally would by clicking its icon.
 
-Step 2: How to Open the IFC
+**Step 2: How to Open the IFC**
 •	In Blender, click on File > Open IFC Project and select the IFC file you want to load.
 
-Step 3: Scripting
+**Step 3: Scripting**
 •	Navigate to the Scripting tab, which can be found in the top menu bar.
 •	Here, you have two options:
 1.	Click New to manually enter or paste the Python code.
 2.	Click Open to upload an existing Python file from your computer.
 
-Step 4: Running the Script
+**Step 4: Running the Script**
 •	Run the script by clicking the triangle icon at the top of the Scripting window.
 •	On a MacBook, the result of the script will be displayed in the terminal.
 
@@ -58,7 +59,7 @@ Step 4: Running the Script
 
 
 
-Python-Code
+**Python-Code**
 
 import ifcopenshell
 from bonsai.bim.ifc import IfcStore
@@ -202,7 +203,13 @@ def process_scene():
 if __name__ == "__main__":
     process_scene()
 ()
-Description of the code
+
+
+
+
+**Description of the code**
+
+
 This script is designed to analyze a 3D scene in Blender and calculate the façade area of objects within the scene, distinguishing between surfaces made of glass and those made of other materials. The calculation involves using raycasting to identify vertical, exterior surfaces while excluding irrelevant areas such as roofs, basements, and non-vertical faces. Additionally, the script calculates the proportion of glass façade area relative to the total façade area, known as the window-to-wall ratio.
 The main functionality of the script is implemented through three key components: determining if an object is made of glass, calculating the façade area of individual objects, and processing the entire scene to print the results.
 The function calculate_facade_area is responsible for determining the façade area of a given object. To achieve this, it first evaluates the object’s geometry using Blender, ensuring the geometry reflects any applied modifiers. A bounding box is then created to determine the spatial extent of the object, and any part of the object below ground level (z<0) is excluded from the calculations. For objects that partially intersect the ground, only the portion above ground is considered.
