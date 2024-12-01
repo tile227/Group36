@@ -42,23 +42,25 @@ VIDEO
 
 
 ### **Step 1: How to Open Blender**
-•	For macOS:
-To open Blender on macOS, you first need to launch it through the terminal. Press “Command + Space Bar”, type “Terminal”, and press Enter. Navigate to the Blender installation path, which may vary but is typically: /Applications/Blender.app/Contents/MacOS/Blender
-•	For Windows:
+- For macOS:
+To open Blender on macOS, you first need to launch it through the terminal. Press “Command + Space Bar”, type “Terminal”, and press Enter. Navigate to the Blender installation path, which may vary but is typically: 
+*/Applications/Blender.app/Contents/MacOS/Blender*
+
+- For Windows:
 Simply open Blender as you normally would by clicking its icon.
 
 ### **Step 2: How to Open the IFC**
-•	In Blender, click on File > Open IFC Project and select the IFC file you want to load.
+- In Blender, click on File > Open IFC Project and select the IFC file you want to load.
 
 ### **Step 3: Scripting**
-•	Navigate to the Scripting tab, which can be found in the top menu bar.
-•	Here, you have two options:
+- Navigate to the Scripting tab, which can be found in the top menu bar.
+- Here, you have two options:
 1.	Click New to manually enter or paste the Python code.
 2.	Click Open to upload an existing Python file from your computer.
 
 ### **Step 4: Running the Script**
-•	Run the script by clicking the triangle icon at the top of the Scripting window.
-•	On a MacBook, the result of the script will be displayed in the terminal.
+- Run the script by clicking the triangle icon at the top of the Scripting window.
+- On a MacBook, the result of the script will be displayed in the terminal.
 
 
 
