@@ -38,7 +38,8 @@ How to get started:
 
 
 
-VIDEO 
+[![Group 36 | A4 | Blender & Bonsai | Facade Area Analyzer](https://img.youtube.com/vi/eoPr_VVhujM/0.jpg)](https://www.youtube.com/watch?v=eoPr_VVhujM)
+
 
 
 ### **Step 1: How to Open Blender**
