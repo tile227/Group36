@@ -24,8 +24,12 @@ Run the script
 
 ## **The information needed for the model to work is to:**
 
-Properly defined materials: Glass materials must have "glass" in their name for the script to identify them.
-Vertical facade geometry: All facade elements should be modeled as vertical surfaces.
-Correct positioning: The building should be placed with ground level at Z = 0 to exclude subgrade elements.
-Polygon data: Objects should contain polygonal geometry (mesh data) with face normals and areas correctly defined.
+*Properly defined materials:* Glass materials must have "glass" in their name for the script to identify them.
+
+*Vertical facade geometry:* All facade elements should be modeled as vertical surfaces.
+
+*Correct positioning:* The building should be placed with ground level at Z = 0 to exclude subgrade elements.
+
+*Polygon data:* Objects should contain polygonal geometry (mesh data) with face normals and areas correctly defined.
+
 This setup ensures accurate calculations of facade areas and Window-to-Wall Ratio.
