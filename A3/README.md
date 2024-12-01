@@ -1,4 +1,4 @@
-About the tool
+# **About the tool**
 
 -The claim we choose is 'The wall to window ratio of the façade is 37 %.' 
 
