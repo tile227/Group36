@@ -3,7 +3,9 @@
 
 *Group 36*
 Katharina Gertrud Voll | s242086
+
 Tilemachos Tsontakis | s242775
+
 Focus Area: LCA
 
 
