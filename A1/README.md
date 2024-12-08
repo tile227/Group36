@@ -1,4 +1,4 @@
-# ** Assignemnt 1 **
+#**Assignemnt 1**
 
 Focus area: 
 LCA-Materials 
